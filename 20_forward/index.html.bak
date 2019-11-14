@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+		<head>
+				<title>Documents</title>
+		</head>
+		<body>
+				<h1>Documents</h1>
+				<a href="abc.do">LINK 1</a>
+				<a href="cmn.do">LINK 2</a>
+		</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+			<title>Documents</title>
+	</head>
+	<body>
+			<form  action="act.do">
+					Name:<input type="text" name="nm"/></br>
+					Food:</br>
+					Samosa:<input type="checkbox" name="food" value="samosa" />
+					Poha:<input type="checkbox" name="food"  value="poha" />
+					Jalebi:<input type="checkbox" name="food" value="jalebi"/></br>
+					City:</br>
+					<select name="ct" multiple="multiple">
+							<option>jabalpur</option>
+							<option>raipur</option>
+							<option>kanpur</option>
+							<option>nagpur</option>
+							<option>jhodpur</option>
+							<option>narsighpur</option>
+							<option>udaypur</option>
+					</select></br>
+					<input type="submit" value="save">
+			</form>
+	</body>
+</html>

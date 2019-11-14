@@ -1,0 +1,34 @@
+#form{
+	border: 1px solid red;
+	width:60%;
+	margin: 60px auto;
+	border-radius:5px;
+}
+
+#xy{
+	border: 1px solid green;
+	padding: 2px 12px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:verdana;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+#aaa{
+	border: 1px solid green;
+	border-radius:4px;
+	width:80%;
+	margin: 20px auto;
+	border-collapse:collapse;
+}
+
+#aaa th{
+		background-color: #edf2fe;
+	    color: #3300ff;
+}
+
+#aaa th,#aaa td{
+		border: 1px solid blue;
+	border-collapse: collapse;
+}

@@ -1,0 +1,37 @@
+import javax.servlet.http.*;
+import javax.servlet.*;
+import java.io.*;
+import java.util.*;
+
+public class XyzServlet extends HttpServlet{
+	public void doGet(HttpServletRequest request,HttpServletResponse response)throws IOException,ServletException{
+			HttpSession session = request.getSession();
+			
+			response.setContentType("text/html");
+			PrintWriter pw= response.getWriter();
+
+			pw.write("<!doctype html>");
+			pw.write("<html>");
+			pw.write("<head>");
+			pw.write("<title>Document</title>");
+			pw.write("</head>");
+			pw.write("<body>");
+			pw.write("<h1>Two Page</h1>");
+			
+			   pw.write("Inside XyzServlet ------- start");
+				pw.write("Is New: "+session.isNew());
+				pw.write("Creation Time: "+new Date(session.getCreationTime()));
+				pw.write("Last Accessed Time: "+new Date(session.getLastAccessedTime()));
+				pw.write("ID: "+session.getId());
+				pw.write("MaxInactiveInterval: "+session.getMaxInactiveInterval());
+				pw.write("Inside XyzServlet ------- end");
+				session.invalidate();
+
+				pw.write("<a href = 'xyz.do'>LINK</a>");
+			pw.write("</body>");
+			pw.write("</html>");
+
+			pw.flush();
+			pw.close();
+	}
+}

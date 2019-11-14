@@ -1,0 +1,15 @@
+<!doctype html>
+
+<html>
+		<head>
+				<title>page 2</title>
+		</head>
+		<body>
+				<form action="http://www.google.com">
+				     user name: <input type="text" name="uname"/><br/>
+				     password: <input type="password" name="passw"/><br/>
+					 <input type="submit" value="register">
+				</form>
+		</body>
+</html>
+<!--here without post method default method is get and it expose all personal parameters like password but on using the method attribute and use post method it hide our passward and other parameter-->

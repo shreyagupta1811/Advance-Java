@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+			<title>Documents</title>
+	</head>
+	<body>
+			<form>
+					Name:<input type="text" name="nm"/></br>
+					Email:<input type="email" name="eml"/></br>
+					Password:<input type="passward" name="pw"/></br>
+					City:</br>
+					<select name="city">
+							<option>jabalpur</option>
+							<option>raipur</option>
+							<option>kanpur</option>
+							<option>nagpur</option>
+					</select></br>
+					Address:</br>
+					<textarea name="msg" rows="5"  cols="25"></textarea></br>
+					<input type="submit" value="save">
+			</form>
+	</body>
+</html>

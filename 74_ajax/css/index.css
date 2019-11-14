@@ -1,0 +1,9 @@
+#abc{
+		border: 1px solid red;
+		border-radius: 4px;
+		padding: 2px 12px;
+		color: red;
+		background-color: #f9ccda;
+		font-weight:bold;
+		cursor:pointer;
+}

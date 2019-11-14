@@ -1,0 +1,25 @@
+#header{
+   border: 1px solid red;
+   height:120px;
+}
+
+#main_body{
+	 border: 1px solid yellow;
+	 height:250px;
+}
+
+#footer{
+	border: 1px solid red;
+	height:80px;
+}
+
+body{
+	margin: 0px auto
+}
+
+#main_box{
+	border: 2px solid green;
+	margin:0px auto;
+	width:1000px;
+
+}

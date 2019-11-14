@@ -1,0 +1,21 @@
+import javax.servlet.http.*;
+import javax.servlet.*;
+import java.io.*;
+
+public class AbcServlet extends HttpServlet{
+	public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException{
+			HttpSession session = request.getSession();
+
+			response.setContentType("text/html");
+			PrintWriter pw= response.getWriter();
+
+			pw.write("<h1>AbcServlet Starts</h1>");
+			pw.write("<h1> new or Not:"+session.isNew()+"</h1>");
+			pw.write("<h1> ID:"+session.getId()+"</h1>");
+			pw.write("<h1>AbcServlet Ends</h1>");
+			request.getRequestDispatcher("mno.html").forward(request,response);
+
+			pw.flush();
+			pw.close();
+	}
+}

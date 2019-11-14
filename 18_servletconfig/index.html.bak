@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+		<head>
+				<title>Documents</title>
+		</head>
+		<body>
+				<h1>INDEX PAGE</h1>
+				<a  href="Abc.do">link1</a>
+				<a  href="Mno.do">link2</a>
+		</body>
+</html>
